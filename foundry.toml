@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+evm_version = "london"
+
+[profile.default.rpc_endpoints]
+mainnet = "https://rpc.ankr.com/eth"
+
+# Fork: Block 12419918 (xToken exploit)
+# forge test --fork-url https://rpc.ankr.com/eth --fork-block-number 12419918
